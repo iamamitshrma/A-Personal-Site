@@ -368,7 +368,15 @@ img{
 }
 
 /* ===== MEDIA QUERIES =====*/
-@media screen and (min-width: 768px){
+@media all and (min-width: 320px){
+    .home__img{
+        display: none;
+    }
+    .home__container{
+        height: 30vh;
+    }
+}
+@media all and (min-width: 768px){
     body{
         margin: 0;
     }
@@ -412,6 +420,7 @@ img{
         row-gap: 0;
     }
     .home__img{
+        display: block;
         width: 524px;
         right: 10%;
     }
@@ -455,7 +464,7 @@ img{
     }
 }
 
-@media screen and (min-width: 1024px){
+@media all and (min-width: 1024px){
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
