@@ -366,6 +366,18 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
+.resume{
+    display: block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
 
 /* ===== MEDIA QUERIES =====*/
 @media all and (min-width: 320px){
